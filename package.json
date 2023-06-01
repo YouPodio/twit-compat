@@ -1,8 +1,8 @@
 {
   "name": "twit",
   "description": "Twitter API client for node (REST & Streaming)",
-  "version": "2.2.11",
-  "author": "Tolga Tezel",
+  "version": "2.3.0-compat",
+  "author": "Tolga Tezel, YouPod",
   "keywords": [
     "twitter",
     "api",
@@ -31,7 +31,7 @@
   "main": "./lib/twitter",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ttezel/twit.git"
+    "url": "http://github.com/Youpodio/twit-compat.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/* -t 70000 -R spec --bail --globals domain,_events,_maxListeners"
